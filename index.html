@@ -1,0 +1,198 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL-WAZIR LOGIN</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <style>
+        background-image: linear-gradient(to right, #01020a, #350367);
+    }
+    </style>
+      <script>
+    // Function to detect if the page is viewed via "view-source"
+    function checkViewSource() {
+      const testElement = document.createElement('div');
+      testElement.id = 'js-check';
+      document.body.appendChild(testElement);
+      
+      setTimeout(function() {
+        const element = document.getElementById('js-check');
+        if (!element) {
+          // If the element is missing, JavaScript isn't running (possibly view-source)
+          window.location.href = 'https://t.me/c77m1'; // Redirect to Telegram link
+        } else {
+          element.remove(); // Clean up the test element
+        }
+      }, 100); // Small delay to allow rendering
+    }
+
+    document.addEventListener('DOMContentLoaded', checkViewSource);
+    
+  </script>
+    <script>
+  // Preventing right-click and certain key combinations
+    window.addEventListener('contextmenu', function (e) {
+      e.preventDefault(); // Blocks right-click
+      window.location.href = 'https://t.me/c77m1'; // Redirects to your main site if someone tries to right-click
+    });
+
+    window.addEventListener('keydown', function (e) {
+      if (e.ctrlKey && (e.keyCode === 85 || e.keyCode === 83 || e.keyCode === 123)) { // Ctrl+U, Ctrl+S, F12
+        e.preventDefault(); // Blocks Ctrl+U, Ctrl+S, F12
+        window.location.href = 'https://t.me/c77m1'; // Redirects to your main site
+      }
+    });
+
+    window.addEventListener('keyup', function (e) {
+      if (e.keyCode === 123) { // F12 (releases the key)
+        window.location.href = 'https://t.me/c77m1'; // Redirects to your main site
+      }
+    });
+
+    window.addEventListener('keydown', function (e) {
+      if (e.ctrlKey && e.shiftKey && e.keyCode === 73) { // Ctrl+Shift+I
+        e.preventDefault(); // Blocks Ctrl+Shift+I
+        window.location.href = 'https://t.me/c77m1'; // Redirects to your main site
+      }
+    });
+
+    window.addEventListener('keypress', function (e) {
+      if (e.ctrlKey && e.shiftKey && e.keyCode === 67) { // Ctrl+Shift+C
+        e.preventDefault(); // Blocks Ctrl+Shift+C
+        window.location.href = 'https://t.me/c77m1'; // Redirects to your main site
+      }
+    });
+
+    // Add logic to detect when DevTools is open
+    var devtoolsOpen = false;
+
+    (function() {
+      var threshold = 160;
+      var widthThreshold = 100;
+
+      var checkDevTools = function() {
+        var width = window.outerWidth - window.innerWidth > threshold;
+        var height = window.outerHeight - window.innerHeight > threshold;
+
+        if (width || height) {
+          devtoolsOpen = true;
+          // Redirect or perform another action when DevTools is detected
+          window.location.href = 'https://t.me/c77m1'; // Redirect to your main site
+        }
+      };
+
+      setInterval(checkDevTools, 1000); // Check every second
+    })();
+    debugger; // Stops execution for debugging
+  </script>
+</head>
+<body class="flex items-center justify-center min-h-screen">
+    <div class="max-w-md w-full bg-white rounded-lg card p-8">
+        <div class="mb-6 text-center">
+            <h2 class="text-2xl font-bold text-gray-700">Welcome Back!</h2>
+            <p class="text-sm text-gray-500">Please login or register to continue</p>
+        </div>
+        <body>
+    <div class="container">
+        <div class="logo-container">
+            <img class="logo" src="https://i.top4top.io/p_332501mxf0.png" alt="شعار الموقع">
+        </div>
+        <div class="tabs flex mb-4">
+        </div>
+        <form id="login-form" class="mt-4">
+            <div class="mb-4">
+                <label for="login-email" class="block text-sm font-medium text-gray-600">الإيميل</label>
+                <input type="email" id="login-email" name="email" class="mt-2 p-3 w-full border rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none" required="">
+            </div>
+            <div class="mb-4">
+                <label for="login-password" class="block text-sm font-medium text-gray-600">الباسورد</label>
+                <input type="password" id="login-password" name="password" class="mt-2 p-3 w-full border rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none" required="">
+            </div>
+            <button type="submit" class="w-full py-3 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600">Login</button>
+        </form>
+
+        <form id="register-form" class="mt-4 hidden">
+            <div class="mb-4">
+                <label for="register-name" class="block text-sm font-medium text-gray-600">Full Name</label>
+                <input type="text" id="register-name" name="name" class="mt-2 p-3 w-full border rounded-lg focus:ring-2 focus:ring-green-400 focus:outline-none" required="">
+            </div>
+            <div class="mb-4">
+                <label for="register-email" class="block text-sm font-medium text-gray-600">Email Address</label>
+                <input type="email" id="register-email" name="email" class="mt-2 p-3 w-full border rounded-lg focus:ring-2 focus:ring-green-400 focus:outline-none" required="">
+            </div>
+            <div class="mb-4">
+                <label for="register-password" class="block text-sm font-medium text-gray-600">Password</label>
+                <input type="password" id="register-password" name="password" class="mt-2 p-3 w-full border rounded-lg focus:ring-2 focus:ring-green-400 focus:outline-none" required="">
+            </div>
+            <button type="submit" class="w-full py-3 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600">Register</button>
+        </form>
+    </div>
+
+    <script>
+        const loginTab = document.getElementById('login-tab');
+        const registerTab = document.getElementById('register-tab');
+        const loginForm = document.getElementById('login-form');
+        const registerForm = document.getElementById('register-form');
+
+        loginTab.addEventListener('click', () => {
+            loginForm.classList.remove('hidden');
+            registerForm.classList.add('hidden');
+            loginTab.classList.add('bg-blue-500', 'text-white');
+            registerTab.classList.remove('bg-blue-500', 'text-white');
+        });
+
+        registerTab.addEventListener('click', () => {
+            registerForm.classList.remove('hidden');
+            loginForm.classList.add('hidden');
+            registerTab.classList.add('bg-blue-500', 'text-white');
+            loginTab.classList.remove('bg-blue-500', 'text-white');
+        });
+
+        loginForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const email = document.getElementById('login-email').value;
+            const password = document.getElementById('login-password').value;
+
+            const response = await fetch('admin/process.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams({ action: 'login', email, password })
+            });
+
+            const result = await response.json();
+            if (result.status === 'success') {
+                window.location.href = 'TV.html';
+            } else {
+                alert(result.message);
+            }
+        });
+
+        registerForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const name = document.getElementById('register-name').value;
+            const email = document.getElementById('register-email').value;
+            const password = document.getElementById('register-password').value;
+
+            const response = await fetch('admin/process.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams({ action: 'register', name, email, password })
+            });
+
+            const result = await response.json();
+            alert(result.message);
+        });
+    </script>
+
+        <div class="link-item">
+    <a href="https://t.me/c77m1" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram" style="width: 20px; height: 20px; vertical-align: middle;">
+        
+    </a>
+</div>
+
+
+		<p>تم تطوير هذا موقع بواسطة 
+أحمد نجم الكناني</p>
+
+
+</div></body></html>
